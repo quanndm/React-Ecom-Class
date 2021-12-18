@@ -1,0 +1,27 @@
+.product-detail{
+    img{
+        width: auto;
+    }
+    .detail{
+        span{
+            font-size: 1.1rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
+    .btn-handler{
+        display: flex;
+        flex-wrap: wrap;
+        button{
+            font-size: 1.2rem;
+            &:last-child{
+                margin-left: 20px;
+                @media screen and (max-width: 350px) {
+                    margin-left: unset;
+                }
+            }
+            
+        }
+    }
+}

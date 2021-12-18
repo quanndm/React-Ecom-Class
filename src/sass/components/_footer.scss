@@ -1,0 +1,204 @@
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    // background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        .noi-dung {
+            margin-right: 30px;
+
+            &.about {
+                width: 40%;
+
+                h2 {
+                    position: relative;
+                    // color: #fff;
+                    font-weight: 500;
+                    margin-bottom: 15px;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        bottom: -5px;
+                        left: 0;
+                        width: 50px;
+                        height: 2px;
+                        background: #f00;
+                    }
+                }
+
+                p {
+                    color: #999;
+                }
+
+                .social-icon {
+                    margin-top: 20px;
+                    display: flex;
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            display: inline-block;
+                            width: 40px;
+                            height: 40px;
+                            background: #222;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-right: 10px;
+                            text-decoration: none;
+                            border-radius: 4px;
+
+                            &:hover {
+                                background: #f00;
+                            }
+
+                            .fab {
+                                color: #fff;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.links {
+                position: relative;
+                width: 25%;
+
+                h2 {
+                    position: relative;
+                    // color: #fff;
+                    font-weight: 500;
+                    margin-bottom: 15px;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        bottom: -5px;
+                        left: 0;
+                        width: 50px;
+                        height: 2px;
+                        background: #f00;
+                    }
+                }
+
+                ul {
+                    li {
+                        list-style: none;
+
+                        a {
+                            color: #999;
+                            text-decoration: none;
+                            margin-bottom: 10px;
+                            display: inline-block;
+
+                            &:hover {
+                                color: #f00;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.contact {
+                width: calc(35% - 60px);
+                margin-right: 0 !important;
+
+                h2 {
+                    position: relative;
+                    
+                    font-weight: 500;
+                    margin-bottom: 15px;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        bottom: -5px;
+                        left: 0;
+                        width: 50px;
+                        height: 2px;
+                        background: #f00;
+                    }
+                }
+
+                .info {
+                    position: relative;
+
+                    li {
+                        display: flex;
+                        margin-bottom: 16px;
+
+                        span {
+                            color: #999;
+
+                            &:nth-child(1) {
+                                // color: #fff;
+                                font-size: 20px;
+                                margin-right: 10px;
+                            }
+                        }
+
+                        a {
+                            color: #999;
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                form {
+                    .form__field {
+                        width: 90%;
+                        background: #fff;
+                        color: #a3a3a3;
+                        font: inherit;
+                        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+                        border: 0;
+                        outline: 0;
+                        padding: 8px 4px;
+                    }
+
+                    .btn {
+                        display: inline-block;
+                        background: transparent;
+                        color: inherit;
+                        font: inherit;
+                        border: 0;
+                        outline: 0;
+                        padding: 0;
+                        margin-top: 16px;
+                        transition: all 200ms ease-in;
+                        cursor: pointer;
+                        &.btn--primary {
+                            background: #222;
+                            color: #fff;
+                            box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+                            border-radius: 2px;
+                            padding: 8px 24px;
+                            &:hover{
+                                background: #f00;
+                            }
+                            &:active{
+                                background: #f00;
+                                box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}

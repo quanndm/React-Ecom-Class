@@ -1,14 +1,14 @@
 import React from 'react'
 import Helmet from '../components/Helmet'
-const ProductPage = () => {
+const Search = () => {
     return (
-        <Helmet title="product">
+        <Helmet title="search">
             <div>
-                product
+
             </div>
         </Helmet>
 
     )
 }
 
-export default ProductPage
+export default Search
