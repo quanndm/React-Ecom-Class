@@ -1,7 +1,5 @@
 import React from 'react'
-import img1 from "../assets/images/slider/slider-hm1-1.png";
-import img2 from "../assets/images/slider/slider-hm1-2.png";
-import img3 from "../assets/images/slider/slider-hm2-1.png";
+
 const Slider = () => {
     return (
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
@@ -12,13 +10,13 @@ const Slider = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={img1} className="d-block w-100" style={{height: '600px'}} alt="..." />
+                    <img src="https://via.placeholder.com/800x600" className="d-block w-100" style={{height: '600px'}} alt="..." />
                 </div>
                 <div className="carousel-item">
-                    <img src={img2} className="d-block w-100" style={{height: '600px'}} alt="..." />
+                    <img src="https://via.placeholder.com/800x600" className="d-block w-100" style={{height: '600px'}} alt="..." />
                 </div>
                 <div className="carousel-item">
-                    <img src={img3} className="d-block w-100" style={{height: '600px'}} alt="..." />
+                    <img src="https://via.placeholder.com/800x600" className="d-block w-100" style={{height: '600px'}} alt="..." />
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
